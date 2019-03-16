@@ -1,0 +1,34 @@
+body {
+    text-align:center;
+    background-color:#EFB9CB;
+}
+
+.nav-link {
+    font-weight: lighter;
+    
+}
+
+.nav-link:hover {
+    font-weight: bolder;
+    background-color: pastel yellow;
+}
+nav{
+    background-color:#FEFFA5;
+}
+
+
+.partners img{
+    width:250px;
+    height:300px;
+    border-radius:50%;
+    
+}
+.aboutus img{
+    width:100%;
+    border-radius:50%;
+    object-fit: cover;
+    text-align:center;
+}
+.aboutus {
+    text-align: center;
+}
