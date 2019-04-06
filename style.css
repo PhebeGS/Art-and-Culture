@@ -4,6 +4,7 @@ body {
     font-family: 'Permanent Marker', cursive;
 }
 
+/* Navbar */
 .nav-link {
     font-weight: lighter;
 
@@ -24,20 +25,7 @@ nav a{
     color:#d9d9d9;
 }
 
-
-.team img {
-    width: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-    text-align: center;
-}
-
-.aboutus {
-    text-align: center;
-    font-size: 30px;
-
-}
-
+/* End Navbar */
 /*Header*/
 .header {
     height: 900px;
@@ -49,15 +37,32 @@ nav a{
 
 }
 
-
 .header h1 {
     font-size: 80px;
     color:#d9d9d9;
       text-shadow: 2px 2px #ff0000;
 }
 
+/* End Header */
+/* About Us */
 
+.aboutus {
+    text-align: center;
+    font-size: 30px;
 
+}
+
+/* End About Us */
+/* Team */
+.team img {
+    width: 200px;
+    height:200px;
+    border-radius: 20%;
+    object-fit: cover;
+    text-align: center;
+}
+
+/* End About Us */
 /* Footer */
 .footer {
     position: fixed;
@@ -68,3 +73,4 @@ nav a{
     color: white;
     text-align: center;
 }
+/* End Footer */
