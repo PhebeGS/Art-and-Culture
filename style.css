@@ -1,36 +1,70 @@
 body {
-    text-align:center;
-    background-color:#EFB9CB;
+    text-align: center;
+    background-color: #EFB9CB;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .nav-link {
     font-weight: lighter;
-    
+
 }
 
 .nav-link:hover {
     font-weight: bolder;
     background-color: pastel yellow;
 }
-nav{
-    background-color:#FEFFA5;
+
+nav {
+    background-color: #00004d;
+    color:#d9d9d9;   
+    text-decoration:none;
+}
+
+nav a{
+    color:#d9d9d9;
 }
 
 
-.partners img{
-    width:250px;
-    height:300px;
-    border-radius:50%;
-    
-}
-.aboutus img{
-    width:100%;
-    border-radius:50%;
+.team img {
+    width: 100%;
+    border-radius: 50%;
     object-fit: cover;
-    text-align:center;
+    text-align: center;
 }
+
 .aboutus {
     text-align: center;
     font-size: 30px;
+
+}
+
+/*Header*/
+.header {
+    height: 900px;
+    width: 100%;
+    background-image: url("4.jpg");
+    background-size: cover;
+    text-align: center;
     
+
+}
+
+
+.header h1 {
+    font-size: 80px;
+    color:#d9d9d9;
+      text-shadow: 2px 2px #ff0000;
+}
+
+
+
+/* Footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
 }
